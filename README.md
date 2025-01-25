@@ -40,13 +40,13 @@ The Cleaning Service business offers a variety of cleaning services, including h
    <td align="center">
       <a href="https://github.com/xR4F4ELx">
         <img src="https://avatars.githubusercontent.com/xR4F4ELx" width="100px;" alt="Kevin"/><br />
-        <sub><b>Min Thet Khine (Kevin)</b></sub>
+        <sub><b>Rafael Macam</b></sub>
       </a>
     </td>
    <td align="center">
       <a href="https://github.com/Jack-wmo-Student">
         <img src="https://avatars.githubusercontent.com/Jack-wmo-Student" width="100px;" alt="Kevin"/><br />
-        <sub><b>Min Thet Khine (Kevin)</b></sub>
+        <sub><b>Win Moe Oo (Jack)</b></sub>
       </a>
     </td>
   </tr>
