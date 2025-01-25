@@ -18,11 +18,11 @@ The Cleaning Service business offers a variety of cleaning services, including h
 4. Feedback System
 
 ### Admin Features
-6. Access Control
-7. Service Management
-8. Customer Management
-9. Sales Management
-10. B2B Integration
+1. Access Control
+2. Service Management
+3. Customer Management
+4. Sales Management
+5. B2B Integration
 
 ### Additional Features
 1. Real-Time Updates
