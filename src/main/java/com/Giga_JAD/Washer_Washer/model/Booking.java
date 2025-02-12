@@ -1,14 +1,26 @@
-package com.Giga_JAD.Washer_Washer.Class;
+package com.Giga_JAD.Washer_Washer.model;
 
+import jakarta.persistence.*;
 import java.util.Date;
 
+@Entity
+@Table(name = "bookings")  // Assuming your table is named "bookings"
 public class Booking {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int bookingId;
+    
+    @Column(name = "status_id")  // If your column name is different, adjust accordingly
     private int statusId;
+    
+    @Column(name = "service_name")
     private String serviceName;
+    
+    @Column(name = "scheduled_time")
+    @Temporal(TemporalType.TIMESTAMP)
     private Date scheduledTime;
     
-    // Getters and Setters
+    // Getters and Setters remain the same
     public int getBookingId() {
         return bookingId;
     }

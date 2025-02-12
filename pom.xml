@@ -75,6 +75,18 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
             <version>3.0.0</version>
         </dependency>
         
+        <dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-core</artifactId>
+		    <version>6.2.13.Final</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>jakarta.persistence</groupId>
+		    <artifactId>jakarta.persistence-api</artifactId>
+		    <version>3.1.0</version>
+		</dependency>
+        
         <!-- Optional: Remove or update these if they are custom local dependencies -->
         <!-- <dependency>
             <groupId>com.myshop</groupId>
