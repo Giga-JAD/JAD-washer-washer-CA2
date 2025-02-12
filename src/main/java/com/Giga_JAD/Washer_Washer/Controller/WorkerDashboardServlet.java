@@ -17,8 +17,7 @@ import jakarta.ws.rs.core.Response;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import com.Giga_JAD.Washer_Washer.model.*;
-
+import com.Giga_JAD.Washer_Washer.Class.*;
 
 //@WebServlet(
 //    name = "WasherController",
@@ -92,5 +91,3 @@ public class WorkerDashboardServlet extends HttpServlet {
         }
     }
 }
-
-

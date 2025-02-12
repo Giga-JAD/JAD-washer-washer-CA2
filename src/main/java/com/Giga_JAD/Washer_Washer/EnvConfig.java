@@ -7,14 +7,14 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class EnvConfig {
 
-    private static final Dotenv dotenv = Dotenv.load();
+	private static final Dotenv dotenv = Dotenv.configure().ignoreIfMissing().load();
 
-    @Bean
-    public Dotenv dotenv() {
-        return dotenv;
-    }
+	@Bean
+	public Dotenv dotenv() {
+		return dotenv;
+	}
 
-    public static String get(String key) {
-        return dotenv.get(key);
-    }
+	public static String get(String key) {
+		return dotenv.get(key);
+	}
 }
