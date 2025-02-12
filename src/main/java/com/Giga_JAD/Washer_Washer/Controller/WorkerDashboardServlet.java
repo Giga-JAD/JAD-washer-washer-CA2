@@ -17,7 +17,7 @@ import jakarta.ws.rs.core.Response;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import com.Giga_JAD.Washer_Washer.Class.*;
+import com.Giga_JAD.Washer_Washer.model.Booking;
 
 //@WebServlet(
 //    name = "WasherController",
