@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.Giga_JAD.Washer_Washer.Service.WorkerService;
-import com.Giga_JAD.Washer_Washer.Class.Booking;
+import com.Giga_JAD.Washer_Washer.model.Booking;
 
 import jakarta.servlet.http.HttpSession;
 

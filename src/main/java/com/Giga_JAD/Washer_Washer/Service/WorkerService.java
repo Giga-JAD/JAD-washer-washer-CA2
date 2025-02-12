@@ -2,7 +2,7 @@ package com.Giga_JAD.Washer_Washer.Service;
 
 import java.util.List;
 
-import com.Giga_JAD.Washer_Washer.Class.Booking;
+import com.Giga_JAD.Washer_Washer.model.Booking;
 
 import org.springframework.stereotype.Service;
 
